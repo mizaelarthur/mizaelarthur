@@ -1,8 +1,4 @@
 #!/bin/bash
 
-RESULTADO=`cat /etc/passwd | cut -d : -f 1,3`
-for i in $RESULTADO
-    do
-        FORMATADO=(${i//:/ })
-        echo "${FORMATADO[1]} ${FORMATADO[0]}"
-done
+awk -F: '{if ($7 ~ "sh"){print $1}}' /etc/passwd
+
