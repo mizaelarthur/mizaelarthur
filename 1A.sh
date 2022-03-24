@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESULTADO=`cat /etc/passwd | cut -d : -f 1,3`
+RESULTADO='cat /etc/passwd | cut -d : -f 1,3'
 for i in $RESULTADO
     do
         FORMATADO=(${i//:/ })

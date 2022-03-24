@@ -26,12 +26,13 @@ MEMORIAS=()
 
 for i in $DIRETORIOS
 do
-    if [[ "$i" == "proc" ]]; then
-    MEMORIAS+=`cat ${i}/status | grep "VmSize"| cut -d ":" -f2`
+    if [[ "$i" == *"proc"* ]]; then
+    echo `cat ${i}/status | sed -n '1p;6p;18p'`
+    echo
     fi
 done
 
-echo $MEMORIAS
+echo $MEMORIAS | sort -n -r
 }
 
 opcao_6(){
