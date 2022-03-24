@@ -1,27 +1,9 @@
 #!/bin/bash
-#awk -F: '{print $3 " " $1}' /etc/passwd >> dados.txt
-#cat dados.txt | perl -e 'foreach $Line (<STDIN>) 
-##{ @Cols=($Line=~/^\s*(\d+)\s*(.*?)\s*$/); push(@{$Link{$Cols[0]}}, $Cols[1]); } 
-#foreach $List (values %Link) 
-##{ print join("\t", @{$List})."\n"; }'
-
 RESULTADO=`cat /etc/passwd | cut -d : -f 1,3`
 for i in $RESULTADO
-    do
-        FORMATADO=(${i//:/ })
-
-        ATPRIM="${FORMATADO[1]}"
-
-        while read ATPRIM
-        do
-	        PRIM=${P:0:1}
-	        if [ $PRIM != $ATPRIM ]
-	        then
-		        echo ""
-		        #$ATPRIM-$PRIM
-	        fi
-	        echo -n $ATPRIM
-     
-        done
-    done
+do
+	FORMATADO=(${i//:/ })
+	ARRAY+="${FORMATADO[1]} ${FORMATADO[0]} \n"
 done
+
+echo -e $ARRAY | sort -k 1n | rev |  uniq -D -f1 | rev | awk '{a[$1]=a[$1] FS $2} END{for(i in a) print i a[i]}'
