@@ -17,11 +17,21 @@ sudo cat /proc/version
 }
 
 opcao_4(){
-sudo ps -e | wc -l
+ls -d /proc/*[0-9] | wc -l
 }
 
 opcao_5(){
-sudo ps -aux | sort -rk 4 | head -n 11
+DIRETORIOS='ls -d /proc/*[0-9]'
+MEMORIAS=()
+
+for i in $DIRETORIOS
+do
+    if [[ "$i" == "proc" ]]; then
+    MEMORIAS+=`cat ${i}/status | grep "VmSize"| cut -d ":" -f2`
+    fi
+done
+
+echo $MEMORIAS
 }
 
 opcao_6(){
