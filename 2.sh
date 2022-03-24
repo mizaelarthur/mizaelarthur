@@ -40,7 +40,7 @@ sudo cat /proc/net/fib_trie | grep -B 1 /32
 }
 
 opcao_7(){
-sudo route -n
+sudo awk '{print $2 ,$3 ,$8}' /proc/net/route
 }
 
 menu_principal() {
