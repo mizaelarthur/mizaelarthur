@@ -48,6 +48,9 @@
 
 ### Experiência com:
 <div style="display: inlune_block"><br/>
-  <img align='center' alt='html5' src='https://raw.githubusercontent.com/github/explore/3308ce299340b38349c4dbf29ff501d2a187221c/topics/mikrotik/mikrotik.png'>
-  <img align='center' alt='html5' src='https://camo.githubusercontent.com/71e79cfd6b679d246f9c432811761bc96eeeaf8680c15db2a8aa842d67398f45/68747470733a2f2f6173736574732e7a61626269782e636f6d2f696d672f6c6f676f2f7a61626269785f6c6f676f5f353030783133312e706e67'>
+  <img align='center' alt='html5' src='https://mikrotik.com/img/mtv2/newlogo.svg'>
+  <img align='center' width='auto' height='60' alt='html5' src='https://camo.githubusercontent.com/71e79cfd6b679d246f9c432811761bc96eeeaf8680c15db2a8aa842d67398f45/68747470733a2f2f6173736574732e7a61626269782e636f6d2f696d672f6c6f676f2f7a61626269785f6c6f676f5f353030783133312e706e67'>
+  <img align='center' width='auto' height='60' alt='html5' src='https://22751443.fs1.hubspotusercontent-na1.net/hub/22751443/hubfs/logo-snep.png?width=1920&name=logo-snep.png'>
+  <img align='center' width='auto' height='60' alt='html5' src='https://purdi.com//wp-content/uploads/2020/01/ubiquiti-white-logo-1024x309-1-300x143.png'>
+  
 </div>
