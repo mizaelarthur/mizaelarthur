@@ -1,5 +1,5 @@
 
-### Olá! Meu nome é Mizael Arthur 👋
+<h1> Olá! Meu nome é Mizael Arthur 👋 </h1>
 
 
 ![Status de Mizael](https://github-readme-stats.vercel.app/api?username=mizaelarthur&show_icons=true&theme=dark)
@@ -31,7 +31,12 @@
   <img align='center' alt='html5' src='https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252'>
 </div>
 
-### Experiência com:
+<br/>
+
+---
+
+<h1 align="center"> Experiência </h1>
+<br/>
 <div style="display: inlune_block"><br/>
   <img align='center' alt='html5' src='https://mikrotik.com/img/mtv2/newlogo.svg'>
   <img align='center' width='auto' height='50' alt='html5' src='https://camo.githubusercontent.com/71e79cfd6b679d246f9c432811761bc96eeeaf8680c15db2a8aa842d67398f45/68747470733a2f2f6173736574732e7a61626269782e636f6d2f696d672f6c6f676f2f7a61626269785f6c6f676f5f353030783133312e706e67'>
