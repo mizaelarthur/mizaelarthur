@@ -30,22 +30,6 @@
   <img align='center' alt='html5' src='https://img.shields.io/badge/Gitpod-000000?style=for-the-badge&logo=gitpod&logoColor=#FFAE33'>
   <img align='center' alt='html5' src='https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252'>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-# ==== Ainda em produção daqui em diante ====
 
 ### Experiência com:
 <div style="display: inlune_block"><br/>
