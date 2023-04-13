@@ -54,6 +54,6 @@
   <img align='center' width='auto' height='60' alt='html5' src='https://22751443.fs1.hubspotusercontent-na1.net/hub/22751443/hubfs/logo-snep.png?width=1920&name=logo-snep.png'>
   <img align='center' width='auto' height='60' alt='html5' src='https://purdi.com//wp-content/uploads/2020/01/ubiquiti-white-logo-1024x309-1-300x143.png'>
   <img align='center' width='auto' height='90' alt='html5' src='https://glpi-project.org/wp-content/uploads/2021/06/glpi-white-footer.png.webp'>
-  <img align='center' width='auto' height='60' alt='html5' src='https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/611bbb87319adfd903b90f24_logoRC.svg'>
+  <img align='center' width='auto' height='40' alt='html5' src='https://global-uploads.webflow.com/611a19b9853b7414a0f6b3f6/611bbb87319adfd903b90f24_logoRC.svg'>
   
 </div>
